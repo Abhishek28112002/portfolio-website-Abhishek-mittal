@@ -85,12 +85,12 @@ function Home() {
                         </div>
                         <div className="column right">
                             <div className="text">I'm abhishek Mittal</div>
-                            <p>  I live in Kundera,Sawai Madhopur,Rajasthan,India.My birth date is 28 novemeber 2002.
+                            <p>I live in Kundera,Sawai Madhopur,Rajasthan,India.My birth date is 28 novemeber 2002.
                                 My father name is Mr DHARM CHAND MITTAL , he is a Shopkeeper.
                                 My mother name is Mrs GUDDI MITTAL she is housewife.
-                                We are four siblings: two brother and two sister,i am elder in all
+                                We are four siblings: two brother and two sister,i am younger in all
                                 .My younger brother name is Mr KAMAL KUMAR MITTAL,
-                                sisters name is Miss NEELAM MITTAL and Miss MINAKSHI MITTAL.</p>
+                                sisters name are Miss NEELAM MITTAL and Miss MINAKSHI MITTAL.</p>
         
                         </div>
                         </div>
