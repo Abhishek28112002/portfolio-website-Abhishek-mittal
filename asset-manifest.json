@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-website-Abhishek-mittal/static/css/main.801c92d2.css",
+    "main.js": "/portfolio-website-Abhishek-mittal/static/js/main.795d748f.js",
+    "static/js/787.a85e094b.chunk.js": "/portfolio-website-Abhishek-mittal/static/js/787.a85e094b.chunk.js",
+    "static/media/ABHISHEK_resume.pdf": "/portfolio-website-Abhishek-mittal/static/media/ABHISHEK_resume.c802c70603da346891bf.pdf",
+    "static/media/abhi12.jpg": "/portfolio-website-Abhishek-mittal/static/media/abhi12.2131df110dc0353e5abc.jpg",
+    "index.html": "/portfolio-website-Abhishek-mittal/index.html",
+    "main.801c92d2.css.map": "/portfolio-website-Abhishek-mittal/static/css/main.801c92d2.css.map",
+    "main.795d748f.js.map": "/portfolio-website-Abhishek-mittal/static/js/main.795d748f.js.map",
+    "787.a85e094b.chunk.js.map": "/portfolio-website-Abhishek-mittal/static/js/787.a85e094b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.801c92d2.css",
+    "static/js/main.795d748f.js"
+  ]
+}
