@@ -4,16 +4,15 @@ import file from './ABHISHEK_resume.pdf'
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
-import img2 from './abhi12.jpg';
+import img2 from './Images/abhi12.jpg';
 
 function Home() {
     
     const textRef = useRef();
-
-  useEffect((async) => {
+  useEffect(() => {
     init(textRef.current, {
       showCursor: true,
-      backDelay: 3500,
+      backDelay: 500,
       backSpeed:100,
       loop:true,
       strings: ["Student" ,"Web Developer", "Software Engineer"],
@@ -31,6 +30,8 @@ function Home() {
                     <ul className="menu">
                         <li><a href="#home" className="menu-btn">Home</a></li>
                         <li><a href="#about" className="menu-btn">About</a></li>
+                        <li><a href="#aboutmyfamily" className="menu-btn">About My Family</a></li>
+                        <li><a href="#teams" className="menu-btn">My Projects</a></li>
                         <li><a href="#skills" className="menu-btn">Skills</a></li>
                         <li><a href="#contact" className="menu-btn">Contact</a></li>
                     </ul>
@@ -76,7 +77,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className="about" id="about">
+            <section className="about" id="aboutmyfamily">
                 <div className="max-width">
                     <h2 className="title">About My Family</h2>
                     <div className="about-content">
@@ -97,6 +98,52 @@ function Home() {
                 </div>
             </section>
             <div>
+            <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                
+                <div class="card">
+                    <div class="box">
+                        <img src={img2} alt=""></img>
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src={img2} alt=""></img>
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src={img2} alt=""></img>
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src={img2} alt=""></img>
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src={img2} alt=""></img>
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            </div>
+            <div>
                 <section className="skills" id="skills">
                     <div className="max-width">
                         <h2 className="title">My skills</h2>
@@ -105,21 +152,21 @@ function Home() {
                                 <div className="text">My creative skills & experiences.</div>
                                 <p>
             Expert in front-end development including technologies like
-            <span class="tech-tag">HTML5</span>,
-            <span class="tech-tag">CSS3</span>,
-            <span class="tech-tag">JavaScript</span>,
-            <span class="tech-tag">Bootstrap</span>,
-            <span class="tech-tag">React</span>,
-            <span class="tech-tag">TypeScript</span>,
+            <span className="tech-tag">HTML5</span>,
+            <span className="tech-tag">CSS3</span>,
+            <span className="tech-tag">JavaScript</span>,
+            <span className="tech-tag">Bootstrap</span>,
+            <span className="tech-tag">React</span>,
+            <span className="tech-tag">TypeScript</span>,
             <br></br>
             <br></br>
             Expert in Software development including technologies like
-            <span class="tech-tag">C++</span>,
-            <span class="tech-tag">Data Structure </span>,
-            <span class="tech-tag">Algorithm</span>,
-            <span class="tech-tag">Pyhton</span>,
-            <span class="tech-tag">My Sql</span>,
-            <span class="tech-tag">Git</span>, etc.
+            <span className="tech-tag">C++</span>,
+            <span className="tech-tag">Data Structure </span>,
+            <span className="tech-tag">Algorithm</span>,
+            <span className="tech-tag">Pyhton</span>,
+            <span className="tech-tag">My Sql</span>,
+            <span className="tech-tag">Git</span>, etc.
           </p>
           <p>I’m not a designer but I have a good sense of aesthetics, and
             experience in responsive, mobile-first web design. I put special
